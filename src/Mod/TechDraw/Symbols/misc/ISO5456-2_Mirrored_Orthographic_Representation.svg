@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Based on 5 mm text height, will need to be scaled based on text height -->
+<!-- text size | 2,5 | 3,5 | 5 |  7  | 10 | 14  | 20 mm -->
+<!--     scale | 0,5 | 0,7 | 1 | 1,4 | 2  | 2,8 | 4 -->
+
+<svg
+   width="20mm"
+   height="24mm"
+   viewBox="0 0 20 24"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <title>ISO 5456-2:1996 Mirrored Orthographic Representation</title>
+  <g id="symbol_outlines" style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round">
+    <path id="mirrored_ortho_trapezoid" d="m 5.25,1.25 2.5,9.5 h 4.5 l 2.5,-9.5 z" />
+    <path id="mirrored_ortho_triangle" d="m 10,10.5 -1.25,-2.18 h 2.5 z" style="fill:#000000" />
+    <circle id="mirrored_ortho_inner_circle" cx="10" cy="18" r="2.25" />
+    <circle id="mirrored_ortho_outer_circle" cx="10" cy="18" r="4.75" />
+  </g>
+  <g id="symbol_centre_lines" style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6, 0.75, 0.125, 0.75" >
+    <path id="mirrored_ortho_horizontal" d="m 4.5,18 h 11" style="stroke-dashoffset:5.125" />
+    <path id="mirrored_ortho_vertical" d="m 10,0.5 v 23" style="stroke-dashoffset:0.75" />
+  </g>
+</svg>
